@@ -1,0 +1,12 @@
+Thư mục / file	Nhiệm vụ
+main.py	Khởi tạo ứng dụng FastAPI và kết nối các API
+api/routes/	Khai báo các endpoint như GET, POST, PUT, DELETE
+schemas/	Định nghĩa dữ liệu đầu vào và đầu ra bằng Pydantic
+models/	Định nghĩa bảng dữ liệu trong database bằng ORM
+services/	Xử lý logic nghiệp vụ
+db/	Kết nối database, tạo session
+core/	Cấu hình ứng dụng, bảo mật, JWT
+tests/	Viết code kiểm thử API
+.venv/	Môi trường Python riêng của dự án
+pyproject.toml	Khai báo dependencies và cấu hình dự án
+.env	Lưu cấu hình bí mật như mật khẩu database, secret key
