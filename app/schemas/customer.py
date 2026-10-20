@@ -22,3 +22,5 @@ class CustomerResponse(BaseModel):
     email: str
     phone: str
     address: Optional[str] = None
+    rank: str = "brown"
+    points: int = 0

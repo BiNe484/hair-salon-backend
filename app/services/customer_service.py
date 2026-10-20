@@ -37,6 +37,8 @@ def create_customer(user_id: str, data: CustomerCreate):
 
     customer_data = data.model_dump()
     customer_data["user_id"] = user_id
+    customer_data["rank"] = "brown"
+    customer_data["points"] = 0
 
     customer_ref.set(customer_data)
 
